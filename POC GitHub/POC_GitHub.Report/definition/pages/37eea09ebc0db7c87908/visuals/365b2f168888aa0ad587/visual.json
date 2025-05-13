@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "365b2f168888aa0ad587",
+  "position": {
+    "x": 9.72644376899696,
+    "y": 0,
+    "z": 0,
+    "height": 414.34650455927056,
+    "width": 604.01215805471122,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "vigie_ca_eta_aip_jour_v2"
+                    }
+                  },
+                  "Property": "Activité"
+                }
+              },
+              "queryRef": "vigie_ca_eta_aip_jour_v2.Activité",
+              "nativeQueryRef": "Activité"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "vigie_ca_eta_aip_jour_v2"
+                    }
+                  },
+                  "Property": "Attribut"
+                }
+              },
+              "queryRef": "vigie_ca_eta_aip_jour_v2.Attribut",
+              "nativeQueryRef": "Attribut"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "vigie_ca_eta_aip_jour_v2"
+                    }
+                  },
+                  "Property": "CED"
+                }
+              },
+              "queryRef": "vigie_ca_eta_aip_jour_v2.CED",
+              "nativeQueryRef": "CED"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

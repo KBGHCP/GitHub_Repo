@@ -1,0 +1,329 @@
+table vigie_ca_eta_aip_jour_v2
+	lineageTag: 517b4a56-406a-4619-a23b-fbe3191e8f39
+
+	column CED
+		dataType: string
+		lineageTag: ab0f8362-b667-4102-ad1b-e37b1cca91f1
+		summarizeBy: none
+		sourceColumn: CED
+
+		annotation SummarizationSetBy = Automatic
+
+	column Réalisateur
+		dataType: string
+		lineageTag: 056baf34-9c5f-43f5-a3d8-e28441e2d6f9
+		summarizeBy: none
+		sourceColumn: Réalisateur
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dossier
+		dataType: int64
+		formatString: 0
+		lineageTag: b87a05b9-2e81-4a8b-b179-45f4b90a5224
+		summarizeBy: sum
+		sourceColumn: Dossier
+
+		annotation SummarizationSetBy = Automatic
+
+	column Plan
+		dataType: string
+		lineageTag: 6e11902e-7b3e-4075-a531-ae67d11303dd
+		summarizeBy: none
+		sourceColumn: Plan
+
+		annotation SummarizationSetBy = Automatic
+
+	column But
+		dataType: string
+		lineageTag: 6e736d68-6861-4670-aa69-8fac14312918
+		summarizeBy: none
+		sourceColumn: But
+
+		annotation SummarizationSetBy = Automatic
+
+	column Activité
+		dataType: string
+		lineageTag: 1a370db4-657e-4275-9e10-b9a26084f235
+		summarizeBy: none
+		sourceColumn: Activité
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Desc. Activité'
+		dataType: string
+		lineageTag: 25ed2e38-6850-4750-920d-5a5be3c4777b
+		summarizeBy: none
+		sourceColumn: Desc. Activité
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'État item'
+		dataType: string
+		lineageTag: 493ca9f0-0e1e-4acc-97c2-4e29fa04e34a
+		summarizeBy: none
+		sourceColumn: État item
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'No avis'
+		dataType: int64
+		formatString: 0
+		lineageTag: 33a0126c-06f9-497f-9fb3-b813f26915d5
+		summarizeBy: sum
+		sourceColumn: No avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Remarque avis'
+		dataType: string
+		lineageTag: 02a2c314-80b4-4f37-af95-97821fc6baef
+		summarizeBy: none
+		sourceColumn: Remarque avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type avis'
+		dataType: string
+		lineageTag: 82417550-c797-4c69-96b3-de5b51fec826
+		summarizeBy: none
+		sourceColumn: Type avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'État avis'
+		dataType: string
+		lineageTag: cc002943-096e-4349-872c-c74b4d6a744e
+		summarizeBy: none
+		sourceColumn: État avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column Attribut
+		dataType: string
+		lineageTag: 0ece263b-6ca1-4d65-9cb0-94366e43bcdb
+		summarizeBy: none
+		sourceColumn: Attribut
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Début prévu'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 13dfbd9a-17d3-4a6f-8455-29f18c2b9ddb
+		summarizeBy: none
+		sourceColumn: Début prévu
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'fin prévue'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5596bae2-4d26-4097-a4ca-09e382e90b5b
+		summarizeBy: none
+		sourceColumn: fin prévue
+
+		annotation SummarizationSetBy = Automatic
+
+	column Durée
+		dataType: string
+		lineageTag: c65720fe-9fab-442b-94a8-ac81fa9d07dd
+		summarizeBy: none
+		sourceColumn: Durée
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Report prévu'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: e40fc6d4-8970-42a2-86ed-a1222eb57088
+		summarizeBy: none
+		sourceColumn: Report prévu
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Avisé Min.'
+		dataType: int64
+		formatString: 0
+		lineageTag: c422918b-825a-4685-92b6-c8c4de9ae4e4
+		summarizeBy: sum
+		sourceColumn: Avisé Min.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Inc.Min.'
+		dataType: int64
+		formatString: 0
+		lineageTag: 71d78010-9b24-4bad-8838-1aa63c5fdd2a
+		summarizeBy: sum
+		sourceColumn: Inc.Min.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Avisé Moy.'
+		dataType: int64
+		formatString: 0
+		lineageTag: e5318551-308c-4b38-b7dc-929e36e80e24
+		summarizeBy: sum
+		sourceColumn: Avisé Moy.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Inc.Moy.'
+		dataType: int64
+		formatString: 0
+		lineageTag: 923018b1-bfcd-4ac7-8fb5-cb6e097c341f
+		summarizeBy: sum
+		sourceColumn: Inc.Moy.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Avisé Maj.'
+		dataType: int64
+		formatString: 0
+		lineageTag: 33a4741f-3cb7-4239-b778-2a096a5580d1
+		summarizeBy: sum
+		sourceColumn: Avisé Maj.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Inc.Maj.'
+		dataType: int64
+		formatString: 0
+		lineageTag: ec0c90e7-d520-4eb5-a3c4-3cae9b806bec
+		summarizeBy: sum
+		sourceColumn: Inc.Maj.
+
+		annotation SummarizationSetBy = Automatic
+
+	column Installation
+		dataType: string
+		lineageTag: 3e5283ec-0043-4d68-9418-bcb32fda3779
+		summarizeBy: none
+		sourceColumn: Installation
+
+		annotation SummarizationSetBy = Automatic
+
+	column Municipalité
+		dataType: string
+		lineageTag: f0722af1-a4f7-43be-aaf6-aa00a0313922
+		summarizeBy: none
+		sourceColumn: Municipalité
+
+		annotation SummarizationSetBy = Automatic
+
+	column Responsabilité
+		dataType: string
+		lineageTag: 2920e2c9-6a20-4b7f-b18b-4de7e3697560
+		summarizeBy: none
+		sourceColumn: Responsabilité
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Responsable des travaux'
+		dataType: string
+		lineageTag: 557c6a63-e731-4d76-acec-91c10957b031
+		summarizeBy: none
+		sourceColumn: Responsable des travaux
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Titre du responsable'
+		dataType: string
+		lineageTag: abf9140f-ddf3-4851-820a-8c9182f20c57
+		summarizeBy: none
+		sourceColumn: Titre du responsable
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Compagnie responsable'
+		dataType: string
+		lineageTag: e6ba4a20-392c-4446-b1e1-f56a1dbd5af2
+		summarizeBy: none
+		sourceColumn: Compagnie responsable
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Demandeur avis'
+		dataType: string
+		lineageTag: cbb72d83-2405-4836-9392-1ecd236f2c79
+		summarizeBy: none
+		sourceColumn: Demandeur avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Titre demandeur avis'
+		dataType: string
+		lineageTag: b75fd65f-850a-4407-a8d5-95b6ea13f493
+		summarizeBy: none
+		sourceColumn: Titre demandeur avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Compagnie demandeur avis'
+		dataType: string
+		lineageTag: 476b4930-45c9-4068-a80d-9c54c33690ea
+		summarizeBy: none
+		sourceColumn: Compagnie demandeur avis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Inc.G.E.'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3b135395-8596-4ba8-9dca-1e450677c1a3
+		summarizeBy: sum
+		sourceColumn: Inc.G.E.
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date effective'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 11cc65be-5669-4473-ba17-337841d1cc9a
+		summarizeBy: none
+		sourceColumn: Date effective
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cause
+		dataType: string
+		lineageTag: 46d85a61-07e9-4ad0-a28d-1e04ae7dd5a3
+		summarizeBy: none
+		sourceColumn: Cause
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordre Réseau'
+		dataType: double
+		lineageTag: 1d9e80b1-f87a-400b-9eb9-55aa7a77fe24
+		summarizeBy: sum
+		sourceColumn: Ordre Réseau
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Date approbation'
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8f720bb8-9c4b-43ca-b82f-b5e6ba5e42dd
+		summarizeBy: none
+		sourceColumn: Date approbation
+
+		annotation SummarizationSetBy = Automatic
+
+	partition vigie_ca_eta_aip_jour_v2 = m
+		mode: import
+		source =
+				let
+				    Source = PowerPlatform.Dataflows(null),
+				    Workspaces = Source{[Id="Workspaces"]}[Data],
+				    #"09891643-f45e-42c2-bf9e-79093aad7ce3" = Workspaces{[workspaceId="09891643-f45e-42c2-bf9e-79093aad7ce3"]}[Data],
+				    #"c2119c5b-bfca-4e8e-99a6-1ed74e119490" = #"09891643-f45e-42c2-bf9e-79093aad7ce3"{[dataflowId="c2119c5b-bfca-4e8e-99a6-1ed74e119490"]}[Data],
+				    vigie_ca_eta_aip_jour_v2_ = #"c2119c5b-bfca-4e8e-99a6-1ed74e119490"{[entity="vigie_ca_eta_aip_jour_v2",version=""]}[Data]
+				in
+				    vigie_ca_eta_aip_jour_v2_
+
+	annotation PBI_ResultType = Table
+
